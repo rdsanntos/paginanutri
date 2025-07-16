@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Programa de Acompanhamento Nutricional</title>
+</head>
+<body>
+   <!--  <script src="index.js"></script>   -->
+    <div id="menusuperior">
+        <div>
+        <img src="./imagens/logomichele.png" id="logo" alt="logo">
+        </div>
+            <div>
+            <h1 id= "título-menusuperior"><br> Programa de <br>Acompanhamento Nutricional</h1>
+                <div id="texto-menusuperior">Tem por objetivo fornecer orientação e suporte personalizados para indivíduos
+        que buscam melhorar sua saúde e bem-estar através da alimentação.<br><br> <!--- br são BREAKS  ou pausas para quebrar o texto dos parágrfos --->
+        Envolve consultas regulares com um profissional, onde são traçados planos 
+        alimentares adaptados às necessidades individuais, metas estabelecidas 
+        e monitoramento do progresso ao longo do tempo.
+                </div>
+          </div>
+                <div><br><br><br><br><br><br>
+                    Michele Guimarães<br>
+                    nutricionista<br>
+                    CRN20587
+                </div>
+    
+     </div>
+
+<div id="video"> <!-- clicar no vídeo no youtube e selecionar a opçãp copiar código de incorporação-->
+    <!--<iframe id="videoyoutube"  width="560" height="301" src="https://www.youtube.com/embed/TvnQMk_FqqU" title="Curso de Nutrição Básica I - Conceitos Iniciais" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+    <div id="textoexplicativo">
+        <br><br><br><br><br>
+        <h2>Assista ao vídeo explicativo</h2> <br><br>
+        <p>Neste vídeo, a Nutri explica como funciona o acompanhamento profissional,
+         que vai desde a consulta inicial até o atingimento dos objetivos!</p> <br>
+     </div>
+     <iframe id="videotela"  width="560" height="301" src="/imagens/VID-20250714-WA0016.mp4"></iframe>
+    </div>
+
+    <!--FORMULARIO-->
+<div id="título-formulário">
+    <br><br>
+    <h1> Achou interessante?</h1><br><br>
+    <h3> Então preencha o questionário abaixo, para que possamos entender<br>
+         melhor as suas necessidades e clique enviar, que entraremos em contato:</h3><br> 
+    <!--comando form indica FORMULÁRIO-->
+    <form action="https://api.sheetmonkey.io/form/9hSqTuicNgeZ2u7gG5GMTF" method="post">
+            <div id="menuinformacional">
+                <br><br><br>
+            <p>Você faz uso de algum tipo de medicamento contínuo?</p>
+            <input type="text" placeholder="" name="resposta1" required><br>
+            <p>Pratica atividades físicas?</p>
+            <input type="text" placeholder="" name="resposta2" required><br>
+            <p>Tem algum tipo de restrição alimentar?</p>
+            <input type="text" placeholder="" name="resposta3" required><br>
+            <p>Costuma consumir bebidas alcoólicas?</p>
+            <input type="text" placeholder="" name="resposta4" required><br>
+            <p>Faz ou já fez, algum tipo de dieta?</p>
+            <input type="text" placeholder="" name="resposta5" required><br>
+            <p>Qual o seu objetivo ao procurar auxílio de um profissional nutricionista?</p>
+            <input type="text" placeholder="" name="resposta6" required><br>
+            </div>
+
+            <div id="contato">
+                <br><br>
+                <h1>Contato</h1>
+            <input type="text" placeholder="nome" name="Nome" required><br><!--Placeholder é o comando que indica o dado a ser inserido na caixa pelo usuário-->
+            <input type="email" placeholder="email" name="Email" required><br>
+            <input type="text" placeholder="telefone" name="Telefone"><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            </div>
+            <button type="submit">
+                enviar
+            </button>
+        </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+*{ /* o asterisco antes da chave indica que o conteudo entre chaves será aplicado a toda a página*/
+    margin:0px; /*zerar as margens gerais da página toda*/
+    font-family: "inter";}
+#logo{ margin: 50px 150px 50px 150px;}
+
+#menusuperior{
+    display:grid;
+    background-color:rgb(139, 169, 101);
+    grid-auto-flow:column;
+    columns:auto; }
+#título-menusuperior {
+    font-family:'Segoe UI';
+    margin-top: 75;
+    color:white; }   
+#texto-menusuperior{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 35px;
+    color:white;
+    font-weight:200; }
+
+#menuinformacional{   /* aqui só vai trabalhar o gráfico do menu informacional*/
+    background-color: rgb(108, 156, 130);
+    color: azure;
+    text-align:center;
+    font-family: Arial;
+    font-size: 18px;
+    grid-auto-flow:row; /*indica que o grid será ordenado em colunas*/
+        input{  /*trata somente os inputs do menu informacional*/
+        border-radius: 7px;
+        width:900px;
+        height: 28px;
+        margin-left: 40px;
+        margin-bottom: 60px;} /*margem dos campos para respostas ao questionário*/
+    }
+#textoexplicativo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(94, 69, 69);
+    font-size: 20px;
+    margin-left: 50px;}
+
+#video{
+    background-color:gainsboro;
+    color: darkblue;
+    display: grid; /*alinhar o vídeo com o texto explicativo, em grid, por colunas com alinhamento automático para centralizar*/
+    grid-auto-flow: column;
+    columns:auto;}
+#videotela{ margin: 100px 50px 100px 150px;}  /*margens topo, lateral direita, fundo, lateral esquerda da tela de vídeo*/
+
+#título-formulário{
+    text-align:center;
+    background-color: rgb(108, 156, 130);
+    color:aliceblue;}
+
+#contato{
+    font-size: 12px;
+    color:white;
+input{ /*estilo das caixas de input para contato*/
+width:330px;
+height:53px;
+margin:15px;
+border: 0px;
+border-radius: 5px; /*curvatura nas laterais da caixa de imputs de contato*/
+background-color:aliceblue;
+padding-left:  10px;}
+ }   
+
+button:hover{ /*realça o efeito do botão ao passar o mouse sobre*/
+background-color: rgb(110, 153, 139); /*troca a cor ao passar o mouse sobre*/
+color:rgb(128, 15, 25); /*troca cor do texto ao passar o mouse sobre o botão*/
+transform: translateY(-2px); /*move o botão -2 pixels no eixo Y ao passar o mouse sobre*/
+box-shadow: 0px 15px 20px rgb(17, 65, 49) ;}  /*comando para projetar a sombra do bootão dando efeito de clicar*/
+button{   /*ESTILOS DO BOTÃO*/
+    background-color:rgb(43, 115, 117); /*cor do botão*/
+    height: 40px;
+    width: 250px;
+    color:whitesmoke; /*cor do texto inserido no botão*/
+    border: 0px;
+    border-radius: 20px; /*curvatura da borda do botão*/
+    margin: auto;
+    margin-bottom: 100px;
+    font-weight: bolder; /* bolder= fonte em negrito*/
+    cursor: pointer;} /*ao passar o mouse sobre o botão o ponteiro fica em estilo de click*/
