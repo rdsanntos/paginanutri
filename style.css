@@ -15,7 +15,7 @@
 #texto-menusuperior{
     font-size: 20px;
     margin-top: 30px;
-    margin-right: 35px;
+    margin-right: 65px;
     color:white;
     font-weight:200; }
 
@@ -37,7 +37,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(94, 69, 69);
     font-size: 20px;
-    margin-left: 50px;}
+    margin-left: 90px;}
 
 #video{
     background-color:gainsboro;
@@ -45,7 +45,7 @@
     display: grid; /*alinhar o vídeo com o texto explicativo, em grid, por colunas com alinhamento automático para centralizar*/
     grid-auto-flow: column;
     columns:auto;}
-#videotela{ margin: 100px 50px 100px 150px;}  /*margens topo, lateral direita, fundo, lateral esquerda da tela de vídeo*/
+#videotela{ margin: 100px 120px 100px 50px;}  /*margens topo, lateral direita, fundo, lateral esquerda da tela de vídeo*/
 
 #título-formulário{
     text-align:center;
